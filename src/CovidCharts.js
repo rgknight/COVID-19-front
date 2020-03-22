@@ -15,7 +15,7 @@ const Target =
   "https://raw.githubusercontent.com/rgknight/COVID-19-MA-County/master/data/covid-19-ma-county.json";
 
 const sliceData = data => {
-  return _.slice(data, -15);
+  return _.slice(data, -16);
 };
 
 const countyCharts = data => {
