@@ -98,7 +98,7 @@ class CovidCharts extends React.Component {
         <Header as="h1" style={{ color: "grey", marginBottom: "2rem" }}>
           Total Cases
         </Header>
-        <Grid columns="3">
+        <Grid stackable columns={3}>
           <>
             {counties.map(c => {
               return (
